@@ -1,0 +1,30 @@
+<form>
+<h2><center>login</center><h2>
+    <label for ="login">username</labed>
+        <input type="text" id="login"name="login"value="Ajit"></input><br>
+        
+        <label for ="xyz">password</label>
+        <input type="password"id="xyz"name ="xyz"><br>
+        <br>
+        <center><input type="button" id="button" value ="submit" </center>
+    </form>
+    <br>
+    <select name ="cars" id="cars">
+        <option value="i20">i20</option>
+        <option value="i10">i10</option>
+        <option value="alto">alto</option>
+            <option value="nano"></option></center>
+            <br>
+            </select>
+            <br><br>
+            <center><textarea rows="4" cols="50" name="commet" forms="usrform">
+                The HTML<form>element is used to create an HTML form for user input.</center></textarea>
+                    <br>
+                    <input type="checkbox" id="xyz" name="xyz" value="Bicycle">
+                    <label for="xyz">I have a bike</label><br>
+                    <input type="checkbox" id="xyz" name="xyz"value="Bike">
+                    <label for="xyz">I have a car</label><br>
+                    <input type="checkbox" id="xyz" name="xyz" value="car">
+                    <label for="xyz"> I have a boat</label> <br><br>
+                </body>
+                </html>
