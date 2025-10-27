@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Room Booking Form</title>
+</head>
+<body>
+
+<h2 style="text-align:center;"><b>Hotel Room Booking Form</b></h2>
+
+<form style="width:400px; margin:auto; border:1px solid black; padding:15px;">
+    <label>Full Name:</label>
+    <input type="text" name="name"><br><br>
+
+    <label>Email:</label>
+    <input type="email" name="email"><br><br>
+
+    <label>Phone:</label>
+    <input type="tel" name="phone"><br><br>
+
+    <label>Check-in Date:</label>
+    <input type="date" name="checkin"><br><br>
+
+    <label>Check-out Date:</label>
+    <input type="date" name="checkout"><br><br>
+
+    <label>Room Type:</label>
+    <select name="room">
+        <option>Single Room</option>
+        <option>Double Room</option>
+        <option>Deluxe Room</option>
+        <option>Suite</option>
+    </select><br><br>
+
+    <label>Number of Guests:</label>
+    <input type="number" name="guests" min="1" max="10"><br><br>
+
+    <label>Special Requests:</label><br>
+    <textarea name="request" rows="3" cols="40"></textarea><br><br>
+
+    <center>
+        <input type="submit" value="Book Now">
+        <input type="reset" value="Reset Form">
+    </center>
+</form>
+
+<br><br>
+<h3>Outcome</h3>
+<ul>
+    <li>Successfully created a hotel room booking form webpage using HTML.</li>
+    <li>Implemented input fields, labels, select, textarea, and buttons.</li>
+    <li>Learned practical form design techniques for web applications.</li>
+</ul>
+
+</body>
+</html>
