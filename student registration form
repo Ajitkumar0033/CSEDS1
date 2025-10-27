@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+<h2 style="text-align:center;"><b>Student Registration Form</b></h2>
+<hr>
+
+<form action="submit.html" method="post" style="width:600px; margin:auto; border:1px solid black; padding:20px;">
+    <label>Full Name:</label>
+    <input type="text" name="fullname" placeholder="Enter your full name" required><br><br>
+
+    <label>Email:</label>
+    <input type="email" name="email" placeholder="Enter valid email address" required><br><br>
+
+    <label>Password:</label>
+    <input type="password" name="password" placeholder="Enter password" required><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male" required> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <input type="radio" name="gender" value="Other"> Other
+    <br><br>
+
+    <label>Course:</label>
+    <select name="course" required>
+        <option value="">-- Select Course --</option>
+        <option>B.Tech</option>
+        <option>BCA</option>
+        <option>BBA</option>
+        <option>MCA</option>
+    </select>
+    <br><br>
+
+    <label>Contact No:</label>
+    <input type="tel" name="contact" placeholder="Enter phone number" required><br><br>
+
+    <label>Address:</label><br>
+    <textarea name="address" rows="3" cols="40" placeholder="Enter your address" required></textarea><br><br>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+</form>
+
+<hr style="width:600px; margin:auto;">
+<p style="text-align:center;">© 2025 Student Registration Portal</p>
+
+<br><br>
+<h3>Outcome</h3>
+<ul>
+    <li>Successfully created a <b>Student Registration Form</b> using only HTML.</li>
+    <li>Applied <b>form attributes</b>: method, action, placeholder, required.</li>
+    <li>Implemented <b>email validation</b> using type="email".</li>
+    <li>Learned to design a <b>structured form</b> without CSS.</li>
+</ul>
+
+</body>
+</html>
