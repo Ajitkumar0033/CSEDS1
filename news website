@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Global Daily News</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <h1 align="center">Global Daily News</h1>
+    <p align="center">Your Trusted Source for Latest Updates</p>
+
+    <hr>
+    <p align="center">
+        <a href="#world">World</a> |
+        <a href="#sports">Sports</a> |
+        <a href="#entertainment">Entertainment</a> |
+        <a href="#podcast">Podcast</a> |
+        <a href="#contact">Contact</a>
+    </p>
+    <hr>
+
+    <h3 id="world">World News</h3>
+    <p>Today's top headline: Global leaders meet to discuss climate change initiatives.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/BBC_World_News_2022.svg/1280px-BBC_World_News_2022.svg.png" 
+         alt="BBC World News" width="600" height="300">
+
+    <p><a href="https://www.bbc.com/news" target="_blank">Read more on BBC</a></p>
+
+    <h3 id="sports">Sports Update</h3>
+    <p>Highlights of yesterday's football match with thrilling last-minute goals!</p>
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/YE7VzlLtp-4" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allowfullscreen>
+    </iframe>
+
+    <h3 id="entertainment">Entertainment Buzz</h3>
+    <p>New movie trailer released today. Fans are excited!</p>
+    <video width="560" height="315" controls>
+        <source src="movie.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h3 id="podcast">News Podcast</h3>
+    <p>Listen to today’s top headlines:</p>
+    <audio controls>
+        <source src="news.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <h3 id="contact">Contact Us</h3>
+    <p>Email: info@globalnews.com</p>
+
+    <hr>
+    <p>© 2025 Global Daily News</p>
+
+    <h3>Outcome</h3>
+    <ul>
+        <li>Successfully designed a <b>basic news website</b> layout.</li>
+        <li>Implemented <b>hyperlinks</b>, <b>navigation</b>, <b>multimedia</b> (image, audio, video), and embedded <b>YouTube video</b>.</li>
+        <li>Learned practical <b>webpage structuring techniques</b> for media-rich sites.</li>
+    </ul>
+
+</body>
+</html>
